@@ -392,7 +392,7 @@ footer h2 {
         width: 100px;
         background-color: #f6f3f3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 80px 0 0 20p  x;
+        padding: 80px 0 0 20p x;
         transition: all ease .5s;
         display: inline-block;
         /* border: 2px dotted red; */
@@ -402,6 +402,7 @@ footer h2 {
 
     #nav.active {
         right: 0px;
+        padding-top: 60px;
     }
 
     #nav li {
