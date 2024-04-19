@@ -99,43 +99,47 @@ nav ul li a:hover::after {
 /* hero section start  */
 #heroSection {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     flex-direction: column;
-    padding-left: 20%;
-    /* padding-right: 10%; */
     justify-content: center;
     background-color: #ffffff;
     height: 69vh;
-    position: relative;
-
+    /* margin-top: 100px; */
 }
 
-.heroContainer {
-    width: 50%;
-    /* height: 300px;*/
-    /* margin-right: 20px; */
-    font-size: 150%;
-    position: relative;
-
-}
-
-.heroContainer a {
+#heroSection a {
     text-decoration: none;
 }
 
-.heroContainer ul li {
-    /* list-style: none; */
+#heroSection ul li {
     display: inline-block;
-    /* margin-left: 30px; */
 }
 
-.heroContainer .teckStack h5 {
+
+.heroContainer {
+    display: flex;
+    font-size: 150%;
+    justify-content: center;
+
+
+}
+
+.heroText {
+    width: 35%;
+}
+
+.teckStack {
+    font-size: 20px;
+}
+
+.teckStack h5 {
     display: inline;
 }
 
-.heroContainer .teckStack li {
-
+.teckStack li {
     margin-left: 30px;
+    font-size: 25px;
+
 }
 
 
@@ -143,7 +147,6 @@ nav ul li a:hover::after {
 .imgContainer {
     background-image: url(imgDeepak.jpg);
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-size: cover;
     background-position-y: 0px;
     background-position-x: -10px;
@@ -151,9 +154,7 @@ nav ul li a:hover::after {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 620px;
+
 
 }
 
@@ -364,18 +365,18 @@ footer h2 {
 
     #heroSection {
 
-        padding-left: 10%;
+        /* padding-left: 10%; */
         /* height: 100vh; */
 
     }
 
     .imgContainer {
-        left: 450px;
+        /* left: 450px; */
     }
 
     .heroContainer .teckStack li {
 
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
 }
 
@@ -385,8 +386,6 @@ footer h2 {
     #nav {
         display: flex;
         flex-direction: column;
-        /* align-items: flex-start;
-        justify-content: flex-start; */
         position: fixed;
         top: 0;
         right: -300px;
@@ -397,7 +396,6 @@ footer h2 {
         padding: 80px 0 0 20p x;
         transition: all ease .5s;
         display: inline-block;
-        /* border: 2px dotted red; */
     }
 
 
@@ -437,36 +435,44 @@ footer h2 {
 
 
     /* hero section  */
-    #heroSection {
 
-        flex-direction: row;
-        padding-left: 5%;
-        /* justify-content: center; */
+    #heroSection {
         height: 100vh;
-        font-size: 80%;
-        /* width: 80%; */
+        /* margin-top: 50px; */
 
     }
 
     .heroContainer {
+        font-size: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
 
-        top: 200px;
-        width: 75%;
+    }
+
+    .heroText {
+        width: 50%;
+    }
+
+    .teckStack {
+        font-size: 20px;
+    }
+
+    /* .teckStack h5 {
+        display: inline;
+    } */
+
+    .teckStack li {
+        margin-left: 25px;
+        font-size: 25px;
 
     }
 
     .imgContainer {
-
-        top: -200px;
-        left: 130px;
-        background-position-y: 0px;
-        /* background-position-x: -10px; */
+        width: 170px;
+        height: 170px;
 
     }
 
-    .teckStack {
-        text-align: center;
-    }
 
 
     /* about section  */
@@ -566,34 +572,32 @@ footer h2 {
 
     /* hero section  */
     #heroSection {
-
-        /* flex-direction: row; */
-        padding-left: 5%;
-        /* justify-content: center; */
-        height: 60vh;
-        /* width: 80%; */
-        font-size: 70%;
+        height: 80vh;
 
     }
 
     .heroContainer {
-        /* display: flex; */
-        /* flex-direction: column; */
-        top: 200px;
-        width: 90%;
+        font-size: 100%;
+    }
 
+    .heroText {
+        width: 70%;
+    }
+
+    .teckStack {
+        font-size: 10px;
+    }
+
+    .teckStack li {
+        margin-left: 15px;
+        font-size: 10px;
     }
 
     .imgContainer {
 
-        top: -170px;
-        left: 100px;
         width: 150px;
         height: 150px;
-
-
     }
-
 
     /* about section  */
 
