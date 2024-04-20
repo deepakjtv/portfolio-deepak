@@ -368,21 +368,21 @@ footer h2 {
 @media screen and (max-width: 1100px),
 (min-width:790) {
 
-    #heroSection {
+    /* #heroSection { */
 
-        /* padding-left: 10%; */
-        /* height: 100vh; */
+    /* padding-left: 10%; */
+    /* height: 100vh; */
 
-    }
+    /* } */
 
-    .imgContainer {
-        /* left: 450px; */
-    }
+    /* .imgContainer { */
+    /* left: 450px; */
+    /* } */
 
-    .heroContainer .teckStack li {
+    /* .heroContainer .teckStack li { */
 
-        /* margin-left: 10px; */
-    }
+    /* margin-left: 10px; */
+    /* } */
 }
 
 
