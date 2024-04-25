@@ -129,7 +129,7 @@ nav ul li a:hover::after {
 }
 
 .heroText {
-    width: 35%;
+    width: 40%;
 }
 
 .teckStack {
@@ -333,29 +333,27 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* text-align: center; */
     flex-direction: column;
     /* background-color: rgb(242, 233, 233); */
 }
 
 footer #footerTital {
-    margin: 100px;
+    margin: 50px;
 }
 
 footer #contactDet {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 footer #contactDet h3 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 footer #contactDet ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
@@ -365,8 +363,8 @@ footer #contactDet ul li a {
     font-size: 20px;
 }
 
-footer h2 {
-    background-color: gray;
+footer p {
+    background-color: rgb(235, 226, 226);
     width: 100%;
     text-align: center;
 }
@@ -595,16 +593,16 @@ footer h2 {
     }
 
     .heroText {
-        width: 70%;
+        width: 80%;
     }
 
     .teckStack {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .teckStack li {
         margin-left: 15px;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .imgContainer {
@@ -683,6 +681,7 @@ footer h2 {
 
     footer {
         text-align: center;
+        font-size: 80%;
     }
 
     footer ul {
