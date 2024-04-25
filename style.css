@@ -7,6 +7,10 @@
     -webkit-text-size-adjust: 100%;
 }
 
+a {
+    color: #000000;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -329,12 +333,21 @@ h5 {
 
 footer {
     /* height: 100vh; */
-    margin-top: 50px;
+    /* margin-top: 20px; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* background-color: rgb(242, 233, 233); */
+    /* background-color: lightpink; */
+    text-align: center;
+}
+
+footer a {
+    margin-top: 50px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 1000;
 }
 
 footer #footerTital {
@@ -364,9 +377,10 @@ footer #contactDet ul li a {
 }
 
 footer p {
-    background-color: rgb(235, 226, 226);
+    /* background-color: rgb(235, 226, 226); */
     width: 100%;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 
